@@ -11,7 +11,7 @@
 
   ```
   1. Flex box
-  2. flexboxfroggy.com
+  2. https://flexboxfroggy.com
   ```
 
 - JS (JavaScript)
@@ -28,4 +28,20 @@
     2.  VS Code - live server
     3.  VS code - auto rename Tag
     4.  VS code - Emmet(div>ol>li*10.azim_list)
+    ```
+
+# HTML Basics
+
+    ```
+    1. Intro to the HTML Document
+    2. Tags & Attributes
+    3. How to Add HYPERLINKS
+    4. Managing IMAGES on WEBPAGES
+    5. Create your first list and tables on a site!
+    6. introdution to DIVS
+    7. Classes
+    8. ID's
+    9. How to use SPAN & Inline elements
+    10. Learn to create your first website FORM !
+    11. ACCEPT & Handle user input!
     ```
