@@ -21,3 +21,9 @@
     e. thead,tbody,tfoot
     f. colgroup <col />
 ```
+
+# An Introduction to Divs
+
+```
+ 1. Block Element
+```
