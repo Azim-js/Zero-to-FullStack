@@ -2,22 +2,29 @@
 <html lang="en">
   <head>
     <title>Lets explain divs!</title>
+    <!-- inline style under head -->
+    <style>
+      /* selector . for class,# for id */
+      .items {
+        color: red;
+        font-weight: bold;
+      }
+
+      .specialList {
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <h1>Shopping List</h1>
 
-    <div style="border: 1px solid black; color: red">
+    <div class="items specialList">
       <p>Banana</p>
       <p>Apple</p>
       <p>Orange</p>
       <p>Watermelon</p>
-    </div>
-
-    <div style="border: 1px solid black; color: green">
       <p>Chicken</p>
       <p>Turkey</p>
-    </div>
-    <div style="border: 1px solid black; color: blue">
       <p>Water</p>
       <p>Leamonade</p>
     </div>
