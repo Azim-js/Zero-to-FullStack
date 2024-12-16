@@ -31,7 +31,14 @@
 # Classes & IDs
 
 ```
-  1. classes (represents class)
-  2. IDs (reprsents unique identification )
+  1. classes . (represents class)
+  2. IDs # (reprsents unique identification )
 
+```
+
+# Span & Inline
+
+```
+  1. How are they different to Div or Block element.
+  2. <span> tag is used to make sure the content is in the same line
 ```
