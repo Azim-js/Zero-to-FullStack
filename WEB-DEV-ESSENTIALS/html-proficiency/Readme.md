@@ -25,5 +25,13 @@
 # An Introduction to Divs
 
 ```
- 1. Block Element
+ 1. Block Element <div>
+```
+
+# Classes & IDs
+
+```
+  1. classes (represents class)
+  2. IDs (reprsents unique identification )
+
 ```
