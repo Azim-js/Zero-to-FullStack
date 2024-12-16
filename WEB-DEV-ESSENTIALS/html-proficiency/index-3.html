@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Site</title>
+  </head>
+  <body>
+    <h1>Lists & Tables Html Tutorial</h1>
+
+    <!-- orderd list -->
+
+    <h2>This is a ordered list</h2>
+    <ol>
+      <li>Take dogs out</li>
+      <li>Empty the bins</li>
+      <li>Code another amazing tutorial</li>
+    </ol>
+
+    <!-- unorderd list  -->
+    <h2>This is unordered list</h2>
+    <ul>
+      <li>Take dogs out</li>
+      <li>Empty the bins</li>
+      <li>Code another amazing tutorial</li>
+    </ul>
+
+    <!-- Definition Lists  -->
+    <h2>Definiation List</h2>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>White cold drink</dd>
+    </dl>
+
+    <br />
+
+    <!-- Tables -->
+    <h2>Tables</h2>
+    <table>
+      <tr>
+        <td>Row 1 - Column 1</td>
+        <td>Row 1 - Column 2</td>
+        <td>Row 1 - Column 3</td>
+      </tr>
+      <tr>
+        <td>Row 2 - Column 1</td>
+        <td>Row 2 - Column 2</td>
+        <td>Row 2 - Column 3</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Col span example -->
+    <table style="width: 100%">
+      <tr>
+        <th>Course Name</th>
+        <th colspan="4">Tiers</th>
+      </tr>
+      <tr>
+        <td>Zero to Full Stack Hero</td>
+        <td>PAPA Silver</td>
+        <td>PAPA Gold</td>
+        <td>PAPA Platinum</td>
+        <td>PAPA Diamond</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Row span example -->
+    <table style="width: 100%">
+      <caption>
+        PAPA React Presents ...
+      </caption>
+      <tr>
+        <th>Course Name</th>
+        <td>Zero to full stack hero</td>
+      </tr>
+      <tr>
+        <th rowspan="4">Tiers</th>
+        <td>PAPA Silver</td>
+      </tr>
+      <tr>
+        <td>PAPA Gold</td>
+      </tr>
+      <tr>
+        <td>PAPA Platinum</td>
+      </tr>
+      <tr>
+        <td>PAPA Diamond</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr style="font-weight: bold">
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br />
+
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: red" />
+        <col style="background-color: green" />
+      </colgroup>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+      </tr>
+    </table>
+  </body>
+</html>
