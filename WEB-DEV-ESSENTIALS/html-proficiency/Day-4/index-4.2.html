@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <title>Lets explain Input & Form Handling !</title>
+  </head>
+  <style>
+    div {
+      margin: 10px;
+    }
+    .resetBtn {
+      background-color: red;
+    }
+  </style>
+  <body>
+    <h1>Sign up now to the Code Fam</h1>
+
+    <form onsubmit="" method="post" target="_blank" autocomplete="on">
+      <!-- Different types of input fields -->
+      <div>
+        <label for="fname">First name</label>
+        <input id="fname" type="text" placeholder="ELon" />
+      </div>
+      <div>
+        <label for="lname">Last name</label>
+        <input id="lname" type="text" placeholder="Doe" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="abc@gmail.com" />
+      </div>
+      <div>
+        <label for="phone">Telphone</label>
+        <input id="phone" type="tel" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" type="password" />
+      </div>
+
+      <!-- SELECT (dropdown choice) input fields -->
+      <div>
+        <label for="level">What is your urrent skill level in coding:</label>
+        <select id="level" name="level">
+          <option value="0">I'm a Beginner</option>
+          <option value="1">I'm an Intermediate</option>
+          <option value="2">I'm an Expert</option>
+          <option value="3">I Live in the matrix with Azim</option>
+        </select>
+      </div>
+
+      <!-- RADIO (select one) input fields -->
+      <div>
+        <label for="course">Which Membership would you like</label>
+
+        <div>
+          <!-- name refers to group -->
+          <input type="radio" name="course" value="platinum" id="platinum" />
+          <label for="platinum">I want Code Fam Platinum</label>
+
+          <br />
+
+          <input
+            type="radio"
+            name="course"
+            value="diamond"
+            id="diamond"
+            checked
+          />
+          <label for="diamond">I want Code Fam Diamond</label>
+        </div>
+      </div>
+
+      <!-- CHECKBOX (select many) input field -->
+
+      <div>
+        <label for="reason">Why do you want to join the Code Fam ?</label>
+        <div>
+          <input type="checkbox" id="love" name="reason" value="love" checked />
+          <label for="love"> I LOVE React ! </label>
+
+          <br />
+
+          <input
+            type="checkbox"
+            id="community"
+            name="reason"
+            value="community"
+          />
+          <label for="community"
+            >I want to be part of an awesome community</label
+          >
+
+          <br />
+
+          <input type="checkbox" name="reason" id="job" value="job" />
+          <label for="job">I want to land a job this year !</label>
+
+          <br />
+
+          <input type="checkbox" name="reason" id="learn" value="skills" />
+          <label for="learn">I want to push my currebt Coding Skills!</label>
+
+          <br />
+        </div>
+      </div>
+
+      <!-- File picker input field -->
+      <input type="file" />
+
+      <!-- Form control buttons -->
+      <div>
+        <button class="resetBtn" type="reset">RESET</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

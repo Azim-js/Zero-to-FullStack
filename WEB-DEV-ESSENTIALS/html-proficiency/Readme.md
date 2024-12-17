@@ -42,3 +42,15 @@
   1. How are they different to Div or Block element.
   2. <span> tag is used to make sure the content is in the same line
 ```
+
+# Input & Form Handling
+
+```
+  1. Using different input types for text (text, email, tel, password)
+  2. Adding a placeholder in the text box
+  3. Implementing different types of input options (dropdown, radio, checkbox, file)
+  4. GET vs POST
+  5. target="_blank" attribute and its uses
+  6. How to submit and reset a form
+
+```
