@@ -23,10 +23,7 @@
       text-align: center;
       color: #333;
     }
-    h4 {
-      text-align: center;
-      color: #8d2e41;
-    }
+    
     div {
       margin: 20px;
       padding: 20px;
@@ -42,7 +39,7 @@
     legend {
       font-weight: bold;
     }
-    ul {
+    ul{
       list-style-type: none;
     }
     footer {
@@ -73,36 +70,77 @@
     </div>
     <form action="">
       <fieldset>
-        <legend>Sandwich</legend>
+        <legend>Order Information</legend>
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" name="name" id="name" />
+        <br />
+          <input type="radio" name="order" value="" class="status">Here</input>
+        <br /> 
+          <input type="radio" name="order" value="" class="status">To Go</input>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Sandwiches</legend>
         <ul>
-          <li><strong>Mon: </strong>Tomato Mozzarella or Chicken Salad</li>
-          <li><strong>Tues: </strong>Greek Salad Wrap or toto Wrap</li>
-          <li><strong>Wed: </strong>Red Pepper Hummus or Roasted Turkey</li>
-          <li>
-            <strong>Thur: </strong>Carrot- Ginger Hummus Wrap or Egg Salad
-          </li>
-          <li><strong>Fri: </strong>Dado wrap or Tuna Salad</li>
+          <li class="title"><strong>Monday</strong></li> 
+          <input type="radio" name="sandwich" value="Tomato Mozzarella" calss="sandwich">Tomato Mozzarella </input>
+          <br />
+          <input type="radio" name="sandwich" value="Chicken Salad" calss="sandwich">Chicken Salad </input>
+          <li class="title"><strong>Tuesday</strong></li>
+          <input type="radio" name="sandwich" value="Greek Salad Wrap" calss="sandwich">Greek Salad Wrap </input>
+          <br />
+          <input type="radio" name="sandwich" value="toto Wrap" calss="sandwich">toto Wrap </input>
+          <li class="title"><strong>Wed</strong></li>
+          <input type="radio" name="sandwich" value="Red Pepper Hummus" calss="sandwich">Red Pepper Hummus </input>
+          <br />
+          <input type="radio" name="sandwich" value="Roasted Turkey" calss="sandwich">Roasted Turkey </input>
+          <li class="title"><strong>Thur</strong></li>
+          <input type="radio" name="sandwich" value="Carrot-Ginger Hummus Wrap" calss="sandwich">Carrot-Ginger Hummus Wrap </input>
+          <br />
+          <input type="radio" name="sandwich" value="Egg Salad" calss="sandwich">Egg Salad </input>
+          <li class="title"><strong>Fri</strong></li>
+          <input type="radio" name="sandwich" value="Dado wrap" calss="sandwich">Dado wrap </input>
+          <br />
+          <input type="radio" name="sandwich" value="Tuna Salad" calss="sandwich">Tuna Salad </input>
         </ul>
-        <h4>75Ȼ extra for Gluten Free Bread</h4>
+        <hr />
+        <input type="checkbox" name="sandwich" value="75Ȼ" id="" class="extra">75Ȼ extra for Gluten Free Bread</input>
       </fieldset>
       <fieldset>
         <legend>Snack</legend>
         <ul>
-          <li>Apple</li>
-          <li>Banana</li>
-          <li>Potato Chips</li>
+          <li class="title"><strong>Snacks</strong></li>
+          <input type="radio" name="snacks" value="Apple" class="snack">Apple</input>
+          <br />
+          <input type="radio" name="snacks" value="Banana" class="snack">Banana</input>
+          <br />
+          <input type="radio" name="snacks" value="Potato Chips" class="snack">Potato Chips</input>
         </ul>
       </fieldset>
       <fieldset>
-        <legend>Regular size drink</legend>
+        <legend>Drink</legend>
         <ul>
-          <li>Coffee or Iced Coffee</li>
-          <li>Organic Peppermint</li>
-          <li>Hot or Iced Sencha Green Tea</li>
-          <li>Hot or Iced Keemun Black Tea</li>
+          <Label class="title"><strong>Drinks</strong></Label>
+          <br />
+          <select name="drink" id="drink">
+            <option value="Hot Black Tea - Keemun">Hot Black Tea - Keemun</option>
+            <option value="Hot Black Tea - Decaf Keemun">Hot Black Tea - Decaf Keemun</option>
+            <option value="Iced Black Tea - Keemun">Iced Black Tea - Keemun</option>
+            <option value="Iced Black Tea - Decaf Keemun">Iced Black Tea - Decaf Keemun</option>
+            <option value="Hot Green Tea - Sencha">Hot Green Tea - Sencha</option>
+            <option value="Hot Green Tea - Decaf">Hot Green Tea - Decaf</option>
+            <option value="Iced Green Tea - Sencha">Iced Green Tea - Sencha</option>
+            <option value="Iced Green Tea - Decaf">Iced Green Tea - Decaf</option>
+            <option value="Hot Coffee">Hot Coffee</option>
+            <option value="Hot Decaf Coffee">Hot Decaf Coffee</option>
+            <option value="Iced Coffee">Iced Coffee</option>
+            <option value="Iced Decaf Coffee">Iced Decaf Coffee</option>
+            <option value="Bubble tea">Bubble tea</option>
+          </select>
         </ul>
-        <h4>$1.50 extra for any regular size Bubble Tea</h4>
-        <h4>75Ȼ extra for Large Drink</h4>
+        <hr />
+        <input type="checkbox" name="Drink" value="75Ȼ" id="" class="extra">75Ȼ extra for Large Drink</input>
       </fieldset>
     </form>
 
