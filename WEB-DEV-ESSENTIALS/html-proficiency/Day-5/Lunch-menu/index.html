@@ -6,58 +6,57 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #cab893;
+      background-color: #f4f4f4;
       color: #333;
-      margin: 0;
-      padding: 0;
     }
     h1 {
-      text-align: center;
       color: #333;
+      text-align: center;
     }
     h2 {
-      text-align: center;
       color: #333;
+      text-align: center;
     }
     h3 {
-      text-align: center;
       color: #333;
+      text-align: center;
     }
-    
     div {
-      margin: 20px;
-      padding: 20px;
-      background-color: #f9f9f9;
-      border-radius: 5px;
+      background-color: #f4f4f4;
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 10px;
+    }
+    form {
+      background-color: #f4f4f4;
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 10px;
     }
     fieldset {
-      margin: 20px;
-      padding: 20px;
-      background-color: #f9f9f9;
-      border-radius: 5px;
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 10px;
     }
     legend {
+      color: #333;
       font-weight: bold;
     }
-    ul{
-      list-style-type: none;
-    }
-    footer {
-      text-align: center;
+    label {
       color: #333;
+      font-weight: bold;
+    }
+    input {
+      margin: 5px;
+    }
+    select {
+      margin: 5px;
     }
     button {
       background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      display: block;
-      margin: 50px auto;
-    }
-    button:hover {
-      background-color: #555;
+      color: #f4f4f4;
+      padding: 10px;
+      margin: 10px;
     }
   </style>
   <body>
@@ -75,77 +74,153 @@
         <br />
         <input type="text" name="name" id="name" />
         <br />
-          <input type="radio" name="order" value="" class="status">Here</input>
-        <br /> 
-          <input type="radio" name="order" value="" class="status">To Go</input>
-        
+        <input type="radio" name="order" value="Here" class="status" />Here
+        <br />
+        <input type="radio" name="order" value="To Go" class="status" />To Go
       </fieldset>
       <fieldset>
         <legend>Sandwiches</legend>
-        <ul>
-          <li class="title"><strong>Monday</strong></li> 
-          <input type="radio" name="sandwich" value="Tomato Mozzarella" calss="sandwich">Tomato Mozzarella </input>
-          <br />
-          <input type="radio" name="sandwich" value="Chicken Salad" calss="sandwich">Chicken Salad </input>
-          <li class="title"><strong>Tuesday</strong></li>
-          <input type="radio" name="sandwich" value="Greek Salad Wrap" calss="sandwich">Greek Salad Wrap </input>
-          <br />
-          <input type="radio" name="sandwich" value="toto Wrap" calss="sandwich">toto Wrap </input>
-          <li class="title"><strong>Wed</strong></li>
-          <input type="radio" name="sandwich" value="Red Pepper Hummus" calss="sandwich">Red Pepper Hummus </input>
-          <br />
-          <input type="radio" name="sandwich" value="Roasted Turkey" calss="sandwich">Roasted Turkey </input>
-          <li class="title"><strong>Thur</strong></li>
-          <input type="radio" name="sandwich" value="Carrot-Ginger Hummus Wrap" calss="sandwich">Carrot-Ginger Hummus Wrap </input>
-          <br />
-          <input type="radio" name="sandwich" value="Egg Salad" calss="sandwich">Egg Salad </input>
-          <li class="title"><strong>Fri</strong></li>
-          <input type="radio" name="sandwich" value="Dado wrap" calss="sandwich">Dado wrap </input>
-          <br />
-          <input type="radio" name="sandwich" value="Tuna Salad" calss="sandwich">Tuna Salad </input>
-        </ul>
+        <label class="title"><strong>Monday</strong></label>
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Tomato Mozzarella"
+          calss="sandwich"
+        />Tomato Mozzarella
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Chicken Salad"
+          calss="sandwich"
+        />Chicken Salad
+        <br />
+        <label class="title"><strong>Tuesday</strong></label>
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Greek Salad Wrap"
+          calss="sandwich"
+        />Greek Salad Wrap
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="toto Wrap"
+          calss="sandwich"
+        />toto Wrap
+        <br />
+        <label class="title"><strong>Wed</strong></label>
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Red Pepper Hummus"
+          calss="sandwich"
+        />Red Pepper Hummus
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Roasted Turkey"
+          calss="sandwich"
+        />Roasted Turkey
+        <br />
+        <label class="title"><strong>Thur</strong></label>
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Carrot-Ginger Hummus Wrap"
+          calss="sandwich"
+        />Carrot-Ginger Hummus Wrap
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Egg Salad"
+          calss="sandwich"
+        />Egg Salad
+        <br />
+        <label class="title"><strong>Fri</strong></label>
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Dado wrap"
+          calss="sandwich"
+        />Dado wrap
+        <br />
+        <input
+          type="radio"
+          name="sandwich"
+          value="Tuna Salad"
+          calss="sandwich"
+        />Tuna Salad
         <hr />
-        <input type="checkbox" name="sandwich" value="75Ȼ" id="" class="extra">75Ȼ extra for Gluten Free Bread</input>
+        <input
+          type="checkbox"
+          name="sandwich"
+          value="75Ȼ"
+          id=""
+          class="extra"
+        />75Ȼ extra for Gluten Free Bread
       </fieldset>
       <fieldset>
         <legend>Snack</legend>
-        <ul>
-          <li class="title"><strong>Snacks</strong></li>
-          <input type="radio" name="snacks" value="Apple" class="snack">Apple</input>
-          <br />
-          <input type="radio" name="snacks" value="Banana" class="snack">Banana</input>
-          <br />
-          <input type="radio" name="snacks" value="Potato Chips" class="snack">Potato Chips</input>
-        </ul>
+        <label class="title"><strong>Snacks</strong></label>
+        <br />
+        <input type="radio" name="snacks" value="Apple" class="snack" />Apple
+        <br />
+        <input type="radio" name="snacks" value="Banana" class="snack" />Banana
+        <br />
+        <input
+          type="radio"
+          name="snacks"
+          value="Potato Chips"
+          class="snack"
+        />Potato Chips
       </fieldset>
       <fieldset>
         <legend>Drink</legend>
-        <ul>
-          <Label class="title"><strong>Drinks</strong></Label>
-          <br />
-          <select name="drink" id="drink">
-            <option value="Hot Black Tea - Keemun">Hot Black Tea - Keemun</option>
-            <option value="Hot Black Tea - Decaf Keemun">Hot Black Tea - Decaf Keemun</option>
-            <option value="Iced Black Tea - Keemun">Iced Black Tea - Keemun</option>
-            <option value="Iced Black Tea - Decaf Keemun">Iced Black Tea - Decaf Keemun</option>
-            <option value="Hot Green Tea - Sencha">Hot Green Tea - Sencha</option>
-            <option value="Hot Green Tea - Decaf">Hot Green Tea - Decaf</option>
-            <option value="Iced Green Tea - Sencha">Iced Green Tea - Sencha</option>
-            <option value="Iced Green Tea - Decaf">Iced Green Tea - Decaf</option>
-            <option value="Hot Coffee">Hot Coffee</option>
-            <option value="Hot Decaf Coffee">Hot Decaf Coffee</option>
-            <option value="Iced Coffee">Iced Coffee</option>
-            <option value="Iced Decaf Coffee">Iced Decaf Coffee</option>
-            <option value="Bubble tea">Bubble tea</option>
-          </select>
-        </ul>
+        <label class="title"><strong>Drinks</strong></label>
+        <br />
+        <select name="drink" id="drink">
+          <option value="Hot Black Tea - Keemun">Hot Black Tea - Keemun</option>
+          <option value="Hot Black Tea - Decaf Keemun">
+            Hot Black Tea - Decaf Keemun
+          </option>
+          <option value="Iced Black Tea - Keemun">
+            Iced Black Tea - Keemun
+          </option>
+          <option value="Iced Black Tea - Decaf Keemun">
+            Iced Black Tea - Decaf Keemun
+          </option>
+          <option value="Hot Green Tea - Sencha">Hot Green Tea - Sencha</option>
+          <option value="Hot Green Tea - Decaf">Hot Green Tea - Decaf</option>
+          <option value="Iced Green Tea - Sencha">
+            Iced Green Tea - Sencha
+          </option>
+          <option value="Iced Green Tea - Decaf">Iced Green Tea - Decaf</option>
+          <option value="Hot Coffee">Hot Coffee</option>
+          <option value="Hot Decaf Coffee">Hot Decaf Coffee</option>
+          <option value="Iced Coffee">Iced Coffee</option>
+          <option value="Iced Decaf Coffee">Iced Decaf Coffee</option>
+          <option value="Bubble tea">Bubble tea</option>
+        </select>
         <hr />
-        <input type="checkbox" name="Drink" value="75Ȼ" id="" class="extra">75Ȼ extra for Large Drink</input>
+        <input
+          type="checkbox"
+          name="Drink"
+          value="75Ȼ"
+          id=""
+          class="extra"
+        />75Ȼ extra for Large Drink
       </fieldset>
     </form>
 
     <button id="button">Place Order</button>
-
-    <footer>~ No SUBSTITUTIONS ~</footer>
   </body>
 </html>
