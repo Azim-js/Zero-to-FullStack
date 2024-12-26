@@ -12,6 +12,7 @@
   ```
   1. Flex box
   2. https://flexboxfroggy.com
+  3. https://cssgridgarden.com/
   ```
 
 - JS (JavaScript)
@@ -45,3 +46,23 @@
     10. Learn to create your first website FORM !
     11. ACCEPT & Handle user input!
     ```
+
+![alt text](image.png)
+
+# CSS Introduction
+
+```
+  1. What does CSS stand for
+  2. How does Google look like Google
+  3. Various use cases of CSS
+  4. 3 different ways to add CSS
+    a. Inline
+    b. Internal
+    c. External (Recommended)
+  1. Flex box
+  2. https://flexboxfroggy.com
+  3. https://cssgridgarden.com/
+  4. https://www.w3schools.com/css
+  5. https://developer.mozilla.org/en-US/docs/Web/CSS
+
+```
