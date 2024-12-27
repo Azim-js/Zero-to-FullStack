@@ -64,5 +64,4 @@
   3. https://cssgridgarden.com/
   4. https://www.w3schools.com/css
   5. https://developer.mozilla.org/en-US/docs/Web/CSS
-
 ```
