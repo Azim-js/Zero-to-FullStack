@@ -294,3 +294,77 @@
   display: flex;
   flex-flow: column wrap;
 }
+
+/* level 21 */
+
+/* The frogs are spread all over the pond, but the lilypads are bunched at the top.
+  you can use the align-content to set how multiple lines are spaced apart from 
+  each other. This property takes the following values: */
+
+/* flex-start: Lines are packed at the top of the container. */
+/* flex-end: Lines are packed at the bottom of the container. */
+/* center: Lines are packed at the vertical center of the container. */
+/* space-between: Lines display with equal spacing between them. */
+/* space-around: Lines display with equal spacing around them. */
+/* stretch: Lines are strteched to fit the container. */
+
+/* This can be confusing, but align-content determines the spacing between lines, 
+   while align-items determines the items as a whole are aligned within the container.
+   When there is only one line, align-content has no effect.  */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* level 22 */
+
+/* Now the current has bunched the lilypad at the bottom. Use align-content
+  to guide the frogs there. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+/* level 23 */
+
+/* The frogs have had a party, but it is time to go home. Use a combination
+  of flex-direction and align-content to get them to their lilypads */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+
+/* level 24 */
+
+/* Bring the frogs hoe ne last time by using the CSS properties you've learned: */
+
+/* justify-content */
+/* align-items */
+/* flex-direction */
+/* order */
+/* align-self */
+/* flex-wrap */
+/* flex-flow */
+/* align-content */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+}
