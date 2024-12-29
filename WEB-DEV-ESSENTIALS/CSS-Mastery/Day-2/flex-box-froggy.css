@@ -16,3 +16,132 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* Level 2 */
+
+/* Use justify-content again to help these frogs to go to their lilypads.
+ Remember that this CSS property aligns items horizontally and accepts the following values */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  justify-content: center;
+}
+
+/* level 3 */
+
+/* Help all three frogs find their lillypads just by using justify-content.
+    This time, the lilypads have lots of space all around them. */
+
+/* If you find yourself forgetting the possible values for a property, 
+    you can click on the property name to view them. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* level 4 */
+
+/* Now the lillypads on the edges have drifted to the store, increasing the space
+    between them. Use justify-content. This time the lillypads have equal spacing between them. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* level 5 */
+
+/* Now use alig-items to help the frogs get to the bottom of the pond. 
+    This CSS property aligns items vertically and accepts the following values: */
+
+/* flex-start: Items align to the top of the container. */
+/* flex-end: Items align to the bottom of the container. */
+/* center: Items align at the vertical center of the container. */
+/* basline: Items display at the basline of the containers. */
+/* stretch: Items are stretched to fit the container */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* level 6 */
+
+/* Lead the frog to the center of the pond using a combination of justify-content and align-items */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* level 7 */
+
+/* The frogs need to cross the pond again, this time for some lily pads with 
+    plenty of space around them. Use a combination of justify-content and align-items. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* level 8 */
+
+/* The frogs need to get in the same order as their lillypads using
+    a flex-direction. This CSS property defines the direction items are 
+    placed in the container, and accepts the following values: */
+
+/* row: Items are placed the same as the text direction */
+/* row-reverse: Items are placed opposite to the text direction. */
+/* column: Items are placed top to bottom. */
+/* column-reverse: Items are placed bottom to top */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* level 9 */
+
+/* Help the frogs find thier column of lilypads using flex-direction. this CSS
+ property defines the direction items are placed in the container, and accepts
+ the following values: */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+}
+
+/* level 10 */
+
+/* Help the frogs get to their own lilypads. Although they seem close, it will take
+    both flex-direction and justify-content to get them there. */
+
+/* Notice that when you set the direction to reversed row or column, start and end
+ are also reversed */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
