@@ -145,3 +145,152 @@
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
+
+/* level 11 */
+
+/* Help the frogs find their lilypads using flex-direction and justify-content. */
+
+/* Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* level 12 */
+
+/* Help the frogs find thier lilypads using flex-direction and justify-content */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: column reverse;
+  justify-content: space-between;
+}
+
+/* level 13 */
+
+/* Help the frogs find their lillypads using flex-direction, justify-content, and align-items. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* level 14 */
+
+/* Sometimes reversing the row or column order of a container is not enough. In these cases, we can 
+    apply the order property to individual items.Byt default, items have a value of 0, but we can use
+    this property to also set it to a positive or negative integer value(-2,-1,0,1,2) */
+
+/* Use the order property to reorder the frogs according to their lilypads. */
+
+/* Answer */
+
+#pond {
+  display: flex;
+}
+
+.yellow {
+  order: 1;
+}
+
+/* level 15 */
+
+/* Use the order property to send the red frog to his lilypad */
+
+/* Answer */
+
+#pond {
+  display: flex;
+}
+
+.red {
+  order: -1;
+}
+
+/* level 16 */
+
+/* Another property you can apply to individual items is align-self.
+ This property accepts the same values as align-items and its value for the specific item */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  align-self: flex-end;
+}
+
+/* level 17 */
+
+/* Combine order with align-self to help the frogs to their destinations */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  order: 1;
+  align-self: flex-end;
+}
+
+/* level 18 */
+
+/* Oh no ! The frogs are all squeezed onto a single row of lilypads.
+  spread them out using the flx-wrap property, which accepts the following values: */
+
+/* nowrap: Every item is fit to a single line. */
+/* wrap: items wrap around to additional lines. */
+/* wrap-reverse: Items wrap around to additional lines in reverse */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* level 19 */
+
+/* Help this army of frogs form three orderly columns using a combination of flex-direction
+ and flex-wrap */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* level 20 */
+
+/* flex-direction + flex-wrap = flex-flow */
+
+/* The two properties flex-direction and flex-wrap are used often together that
+  the shorthand property flex-flow was created to combine them. This shorthand property
+  accepts the value of the two properties seprated by a space. */
+
+/* For example, you can use flex-flow: row wrap to set rows and wrap them.  */
+
+/* Answer */
+
+#pond {
+  display: flex;
+  flex-flow: column wrap;
+}
