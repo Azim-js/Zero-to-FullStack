@@ -24,3 +24,76 @@
     10. Adding Interactive Elements and Animations
     11. Conclusion and Homework
 ```
+
+# Reason to love Tailwind
+
+```
+    1. Compared to CSS for a media query -> the Time has been reduced (need not to be remmbered)
+    2. Hover states (all CSS -> utility classes) (clean)
+    3. Duplication ( abstraction to be used for many a times)
+    4. Dark Mode
+    5. Design Tools
+    6. Grid (Transform , color  Gradients)
+    7. Animations -> easy
+    8. Tailwind uses native CSS ( which makes a user good at css)
+    9. If you use Bootstrap (you will not become good in CSS)
+    10. Storybook to be used for make life more easier (tool - suplimentary)
+```
+
+# Installation Guide
+
+```
+    1. Using Next.js
+
+    nvm use --lts
+
+    npx create-next-app@latest azim-todo-app
+
+    npm install --global yarn
+
+    yarn
+
+    yarn dev
+
+    yarn add -D tailwindcss postcss autoprefixer
+
+    npx tailwindcss init -p
+
+    yarn -D @tailwindcss/jit tailwindcss postcss autoprefixer
+```
+
+# Extensions
+
+```
+    1. Tailwind CSS IntelliSense
+```
+
+# How to use
+
+```
+    1. First is moble configs and then break points
+    2. your child-items shouldnt have margins
+    3. globals.css ( based on priority)
+```
+
+# example of tailwind rules for non repeating
+
+```
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom layer to apply for not repeating code */
+
+@layer components {
+  .btn {
+    @apply p-10 rounded-2xl shadow-lg ring-2 ring-gray-200 focus:outline-none
+    active:ring-red-600 hover:ring-gray-500;
+  }
+
+  .btn--primary {
+    @apply shadow-lg;
+  }
+}
+```
