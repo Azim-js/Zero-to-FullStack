@@ -97,3 +97,9 @@
   }
 }
 ```
+
+# Color Schemes and color pallete (curate your own colors in tailwind css)
+
+```
+    1. https://coolors.co/
+```
